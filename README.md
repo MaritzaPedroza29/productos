@@ -42,7 +42,8 @@ Descripción de la estructura del proyecto
  ┃ ┣ 📂 controllers     # Lógica de negocio de cada endpoint
  ┃ ┣ 📜 server.js       # Configuración principal del servidor Express
  ┃ ┗ 📜 .env            # Variables de entorno
- ┃
+ |
+ ┣ 📂 frontend
  ┣ 📂 src               # Código fuente del frontend
  ┃ ┣ 📂 components      # Componentes reutilizables de React (NavBar, Formularios, etc.)
  ┃ ┣ 📂 views           # Vistas principales (Artículos, Formulario de Precios Especiales)
