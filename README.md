@@ -14,7 +14,7 @@ npm install
 Crear un archivo .env y definir las variables necesarias (ejemplo):
 env
 PORT=5000
-MONGO_URI=mongodb+srv://drenviochallenge:m1jWly3uw42cBwp6@drenviochallenge.2efc0.mongodb.net/
+MONGO_URI="aqui se pone la url de la prueba que dan en el documento"
 
 Ejecutar el servidor:
 npm start
