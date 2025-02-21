@@ -1,5 +1,5 @@
 // Importamos las dependencias necesarias
-import React, { useState } from "react";
+import React from "react";
 import Swal from "sweetalert2"; // Importamos SweetAlert2 para mostrar alertas personalizadas
 import SpecialPriceForm from "../components/SpecialPriceForm"; // Importamos el formulario de precios especiales
 import { 
