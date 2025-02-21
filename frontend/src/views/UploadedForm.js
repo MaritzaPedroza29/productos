@@ -53,7 +53,7 @@ const UploadedForm = () => {
   const sendSpecialPrice = async (userId, productId, price) => {
     try {
       // Realiza una solicitud POST para guardar el precio especial
-      const response = await axios.post(SUBIR_PRECIOS_ESPECIALES_POST_ENDPOINT, {
+      await axios.post(SUBIR_PRECIOS_ESPECIALES_POST_ENDPOINT, {
         userId, 
         productId, 
         price
